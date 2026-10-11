@@ -1,0 +1,45 @@
+# Compiled Common Lisp binary files
+*.fasl
+*.fas
+*.lib
+*.dx64fsl
+*.lx64fsl
+*.dfsl
+*.x86f
+
+# Compiled native binaries
+bin/ocr-pdf
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Emacs backup and autosave files
+*~
+\#*#
+.\#*
+*slime-repl*
+\#*slime-repl*#
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Downloaded test books and ebooks (keep data directory)
+bartleby.pdf
+mobydick.txt
+hamlet.txt
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.kfx
+
+# OS & Editor temporary files
+*.swp
+*.swo
+*.tmp
+.vscode/
+.idea/
